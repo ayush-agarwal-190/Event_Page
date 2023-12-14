@@ -1,6 +1,8 @@
+// App.js
 import React, { useEffect, useState } from 'react';
 import PastEvents from './PastEvents';
 import UpcomingEvents from './UpcomingEvents';
+import Navbar from './Navbar'; // Import Navbar component
 import './App.css';
 
 const App = () => {
@@ -24,6 +26,7 @@ const App = () => {
 
   return (
     <div className="app-container">
+      <Navbar /> {/* Use Navbar component */}
       <h1>Events Track List</h1>
       <div className="events-section">
         <h2>Past Events</h2>
