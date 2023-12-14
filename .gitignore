@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+
+# Compiled files
+/build
+/dist
+
+# Environment files
+.env
+
+# Editor-specific files
+.vscode
+.idea
+
+# Logs
+npm-debug.log*
+
+# Yarn integrity file
+.yarn-integrity
+
