@@ -32,7 +32,7 @@ const App = () => {
         <h2>Past Events</h2>
         <div className="event-list">
           {pastEvents.map((event) => (
-            <div key={event.id} className="event-card">
+            <div key={event.id} className="event-card past-event">
               <img src={event.image} alt={event.title} />
               <h3>{event.title}</h3>
               <p>{event.date}</p>

@@ -34,3 +34,11 @@ img {
   border-radius: 8px;
   margin-bottom: 10px;
 }
+
+.past-event{
+  filter:grayscale(100%);
+}
+
+.past-event:hover{
+  filter:grayscale(0%);
+}
