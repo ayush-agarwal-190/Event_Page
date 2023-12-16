@@ -5,28 +5,56 @@
         "title": "Conference 2022",
         "date": "2022-10-15",
         "image": "/images/download.jpg",
+        "category": "Past"
+      },
+      {
+        "id": 2,
+        "title": "Music Festival",
+        "date": "2022-09-05",
+        "image": "/images/download.jpg",
+        "category": "Past"
+      },
+      {
+        "id": 2,
+        "title": "Music Festival",
+        "date": "2022-09-05",
+        "image": "/images/download.jpg",
+        "category": "Past"
+      },
+      {
+        "id": 2,
+        "title": "Music Festival",
+        "date": "2022-09-05",
+        "image": "/images/download.jpg",
+        "category": "Past"
+      },
+      {
+        "id": 1,
+        "title": "Conference 2022",
+        "date": "2025-10-15",
+        "image": "/images/download.jpg",
         "category": "Upcoming"
       },
       {
         "id": 2,
         "title": "Music Festival",
-        "date": "2022-09-05",
+        "date": "2025-09-05",
         "image": "/images/download.jpg",
-        "category": "Past"
+        "category": "Upcoming"
       },
       {
         "id": 2,
         "title": "Music Festival",
-        "date": "2022-09-05",
+        "date": "2025-09-05",
         "image": "/images/download.jpg",
-        "category": "Past"
+        "category": "Upcoming"
       },
       {
         "id": 2,
         "title": "Music Festival",
-        "date": "2022-09-05",
+        "date": "2025-09-05",
         "image": "/images/download.jpg",
-        "category": "Past"
+        "category": "Upcoming"
       }
     ]
   }
