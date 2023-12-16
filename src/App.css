@@ -5,14 +5,8 @@
   text-align: center;
 }
 
-.event-card {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform .2s; /* Animation */
-}
+
+
 
 .event-card:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -20,9 +14,17 @@
 
 .event-list {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: row; /* Stacks the cards horizontally */
+  flex-wrap: wrap; /* Allows the items to wrap as needed */
+  justify-content: space-around; /* Distributes space evenly between the cards */
 }
+
+.event-card {
+  width: calc(33% - 20px); 
+}
+
+
+
 
 h2 {
   color: #333;

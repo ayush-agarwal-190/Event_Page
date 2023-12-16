@@ -1,61 +1,60 @@
 {
-    "events": [
-      {
-        "id": 1,
-        "title": "Conference 2022",
-        "date": "2022-10-15",
-        "image": "/images/download.jpg",
-        "category": "Past"
-      },
-      {
-        "id": 2,
-        "title": "Music Festival",
-        "date": "2022-09-05",
-        "image": "/images/download.jpg",
-        "category": "Past"
-      },
-      {
-        "id": 2,
-        "title": "Music Festival",
-        "date": "2022-09-05",
-        "image": "/images/download.jpg",
-        "category": "Past"
-      },
-      {
-        "id": 2,
-        "title": "Music Festival",
-        "date": "2022-09-05",
-        "image": "/images/download.jpg",
-        "category": "Past"
-      },
-      {
-        "id": 1,
-        "title": "Conference 2022",
-        "date": "2025-10-15",
-        "image": "/images/download.jpg",
-        "category": "Upcoming"
-      },
-      {
-        "id": 2,
-        "title": "Music Festival",
-        "date": "2025-09-05",
-        "image": "/images/download.jpg",
-        "category": "Upcoming"
-      },
-      {
-        "id": 2,
-        "title": "Music Festival",
-        "date": "2025-09-05",
-        "image": "/images/download.jpg",
-        "category": "Upcoming"
-      },
-      {
-        "id": 2,
-        "title": "Music Festival",
-        "date": "2025-09-05",
-        "image": "/images/download.jpg",
-        "category": "Upcoming"
-      }
-    ]
-  }
-  
+  "events": [
+    {
+      "id": 1,
+      "title": "Conference 2022",
+      "date": "2022-10-15",
+      "image": "/images/download.jpg",
+      "category": "Past"
+    },
+    {
+      "id": 2,
+      "title": "Music Festival",
+      "date": "2022-09-05",
+      "image": "/images/download.jpg",
+      "category": "Past"
+    },
+    {
+      "id": 3,
+      "title": "Music Festival",
+      "date": "2022-09-05",
+      "image": "/images/download.jpg",
+      "category": "Past"
+    },
+    {
+      "id": 4,
+      "title": "Music Festival",
+      "date": "2022-09-05",
+      "image": "/images/download.jpg",
+      "category": "Past"
+    },
+    {
+      "id": 5,
+      "title": "Conference 2022",
+      "date": "2025-10-15",
+      "image": "/images/download.jpg",
+      "category": "Upcoming"
+    },
+    {
+      "id": 6,
+      "title": "Music Festival",
+      "date": "2025-09-05",
+      "image": "/images/download.jpg",
+      "category": "Upcoming"
+    },
+    {
+      "id": 7,
+      "title": "Music Festival",
+      "date": "2025-09-05",
+      "image": "/images/download.jpg",
+      "category": "Upcoming"
+    },
+    {
+      "id": 8,
+      "title": "Music Festival",
+      "date": "2025-09-05",
+      "image": "/images/download.jpg",
+      "category": "Upcoming"
+    }
+  ]
+}
