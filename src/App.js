@@ -29,10 +29,10 @@ const App = () => {
       <Navbar /> {/* Use Navbar component */}
       <h1>Events Track List</h1>
       <div className="events-section">
-        <h2>Past Events</h2>
+        <h2>Upcoming Events</h2>
         <div className="event-list">
-          {pastEvents.map((event) => (
-            <div key={event.id} className="event-card past-event">
+          {upcomingEvents.map((event) => (
+            <div key={event.id} className="event-card">
               <img src={event.image} alt={event.title} />
               <h3>{event.title}</h3>
               <p>{event.date}</p>
@@ -41,10 +41,10 @@ const App = () => {
         </div>
       </div>
       <div className="events-section">
-        <h2>Upcoming Events</h2>
+        <h2>Past Events</h2>
         <div className="event-list">
-          {upcomingEvents.map((event) => (
-            <div key={event.id} className="event-card">
+          {pastEvents.map((event) => (
+            <div key={event.id} className="event-card past-event">
               <img src={event.image} alt={event.title} />
               <h3>{event.title}</h3>
               <p>{event.date}</p>
