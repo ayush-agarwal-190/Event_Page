@@ -2,14 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##
-Install Dependencies 
+###
+Installation  Dependencies
 
 ### `npm i`
 
-### 'npm install react-slick slick-carousel'
+### `npm install react-slick slick-carousel`
 
-### 'npm start'
+### `npm start`
 ## Available Scripts
 
 In the project directory, you can run:
