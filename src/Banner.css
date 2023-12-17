@@ -1,0 +1,23 @@
+/* Banner.css */
+@import "~react-responsive-carousel/lib/styles/carousel.min.css";
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.banner {
+    width: 100%;
+    height: auto; /* Change to auto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 500px; 
+  }
+  
+  .banner img {
+    width: 80%; /* Adjust this value as needed */
+    height: 20%;
+    object-fit: cover; 
+}
+
+  
