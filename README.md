@@ -7,7 +7,9 @@ Install Dependencies
 
 ### `npm i`
 
+'npm install react-slick slick-carousel'
 
+'npm start'
 ## Available Scripts
 
 In the project directory, you can run:
