@@ -1,0 +1,94 @@
+/* Footer Container */
+.footer {
+    background-color: white; /* White background */
+    font-family: sans-serif;
+    padding: 40px 0;
+  }
+  
+  /* Footer Content */
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  /* Footer Sections */
+  .footer-section {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2353fb; /* Blue color from your palette */
+  }
+  
+  .footer-section p {
+    font-size: 16px;
+    color: #3c3c3c; /* Dark gray color */
+  }
+  
+  /* Footer Links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 10px 0;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #2353fb;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #9eb4c0; /* Gray text color */
+  }
+  
+  /* Center the footer text and add spacing */
+  .footer-bottom p {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      text-align: center;
+      padding: 20px 0;
+    }
+  }
+
+  .logo-container {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .gdsc-logo {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    /* You can add further styling here if needed */
+  }
+
+  @media(max-width:768px){
+    .logo-container {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+  }

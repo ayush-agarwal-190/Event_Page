@@ -5,6 +5,7 @@ import UpcomingEvents from './UpcomingEvents';
 import Navbar from './Navbar'; // Import Navbar component
 import Banner from './Banner'; // Import Banner component
 import './App.css';
+import Footer from './Footer';
 
 const App = () => {
   // State to store events data
@@ -54,6 +55,7 @@ const App = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
