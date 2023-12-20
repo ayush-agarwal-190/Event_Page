@@ -1,7 +1,7 @@
 // Navbar.js
 import React from 'react';
 import './Navbar.css'; 
-import logo from './logo.png'; // import your logo image
+import logo from './logo2.jpg'; // import your logo image
 import searchIcon from './search.png'; // import your search icon
 import notificationIcon from './notification.png'; // import your notification icon
 import contactIcon from './contact.png'; // import your contact icon
