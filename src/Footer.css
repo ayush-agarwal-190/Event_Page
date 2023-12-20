@@ -1,6 +1,6 @@
 /* Footer Container */
 .footer {
-    background-color: white; /* White background */
+    background-color: black; /* White background */
     font-family: sans-serif;
     padding: 40px 0;
   }
@@ -23,12 +23,12 @@
   .footer-section h3 {
     font-size: 24px;
     font-weight: 600;
-    color: #2353fb; /* Blue color from your palette */
+    color: white; 
   }
   
   .footer-section p {
     font-size: 16px;
-    color: #3c3c3c; /* Dark gray color */
+    color: white; /* Dark gray color */
   }
   
   /* Footer Links */
@@ -43,14 +43,14 @@
   
   .footer-section a {
     text-decoration: none;
-    color: #2353fb;
+    color: white;
     font-weight: 500;
     font-size: 18px;
   }
   
   /* Footer Bottom */
   .footer-bottom {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: whitesmoke;
     padding: 20px 0;
     text-align: center;
     font-size: 14px;
