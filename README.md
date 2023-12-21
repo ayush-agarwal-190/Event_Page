@@ -9,6 +9,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `npm install react-slick slick-carousel`
 
+### `npm install react-icons`
+
 ### `npm start`
 ## Available Scripts
 
