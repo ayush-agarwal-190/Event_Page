@@ -7,13 +7,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(240, 248, 255);
 }
 
-
-
-
 .event-card:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .event-list {
@@ -21,15 +21,12 @@
   flex-direction: row; /* Stacks the cards horizontally */
   flex-wrap: wrap; /* Allows the items to wrap as needed */
   justify-content: space-around; /* Distributes space evenly between the cards */
-  width:100%;
+  width: 100%;
 }
 
 .event-card {
-  width: calc(33% - 20px); 
+  width: calc(33% - 20px);
 }
-
-
-
 
 h2 {
   color: #333;
@@ -42,10 +39,10 @@ img {
   margin-bottom: 10px;
 }
 
-.past-event{
-  filter:grayscale(100%);
+.past-event {
+  filter: grayscale(100%);
 }
 
-.past-event:hover{
-  filter:grayscale(0%);
+.past-event:hover {
+  filter: grayscale(0%);
 }

@@ -4,7 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
-
 ### `npm i`
 
 ### `npm install react-slick slick-carousel`
@@ -12,6 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `npm install react-icons`
 
 ### `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
