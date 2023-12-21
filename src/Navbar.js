@@ -1,12 +1,32 @@
-// Navbar.js
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import { FaSearch, FaTimes, FaBell, FaAddressBook } from 'react-icons/fa';
 import './Navbar.css'; 
 import logo from './logo2.jpg'; // import your logo image
-import searchIcon from './search.png'; // import your search icon
-import notificationIcon from './notification.png'; // import your notification icon
-import contactIcon from './contact.png'; // import your contact icon
 
 const Navbar = () => {
+    const [searchOpen, setSearchOpen] = useState(false);
+    const [showNotification, setShowNotification] = useState(false);
+    const [showContact, setShowContact] = useState(false);
+
+    const notificationRef = useRef(null);
+    const contactRef = useRef(null);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (notificationRef.current && !notificationRef.current.contains(event.target)) {
+                setShowNotification(false);
+            }
+            if (contactRef.current && !contactRef.current.contains(event.target)) {
+                setShowContact(false);
+            }
+        }
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
     return (
         <nav className="navbar">
             <div className="left">
@@ -21,9 +41,29 @@ const Navbar = () => {
                 <img src={logo} alt="Logo" />
             </div>
             <div className="right">
-                <button><img src={searchIcon} alt="Search" /></button>
-                <button><img src={notificationIcon} alt="Notifications" /></button>
-                <button><img src={contactIcon} alt="Contact" /></button>
+                <button className="icon-button" onClick={() => setSearchOpen(!searchOpen)}>
+                    {searchOpen ? <FaTimes /> : <FaSearch />}
+                </button>
+                {searchOpen && (
+                    <input type="text" className="search-input" placeholder="Search..." />
+                )}
+                <button className="icon-button" onClick={() => setShowNotification(!showNotification)}>
+                    <FaBell />
+                </button>
+                {showNotification && (
+                    <div ref={notificationRef} className="notification-box">No New Notification here</div>
+                )}
+                <button className="icon-button" onClick={() => setShowContact(!showContact)}>
+                    <FaAddressBook />
+                </button>
+                {showContact && (
+                    <div ref={contactRef} className="contact-box">
+                        <a href="#">My profile</a>
+                        <a href="#">My courses</a>
+                        <a href="#">Transaction</a>
+                        <a href="#">Log Out</a>
+                    </div>
+                )}
             </div>
         </nav>
     );

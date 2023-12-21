@@ -39,12 +39,42 @@
   width: 50px; /* Adjust as needed */
 }
 
-.navbar button {
+.icon-button {
   background: none;
   border: none;
+  color: #fff;
+  font-size: 1.5rem;
   cursor: pointer;
+  margin-left: 20px; /* Add space between icons */
 }
 
-.navbar button img {
-  margin: 0 10px; /* Adjust as needed */
+.search-input {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+.notification-box, .contact-box {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  position: absolute;
+  top: 60px; /* Adjust as needed */
+}
+
+.contact-box {
+  right: 0; /* Align the contact box to the right */
+}
+
+.contact-box a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.contact-box a:hover {
+  color: #666;
 }
